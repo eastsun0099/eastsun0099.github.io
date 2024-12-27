@@ -1,16 +1,4 @@
-- title: Pages
-  links:
-    - name: Home
-      link: /
-    - name: Portfolio
-      link: /portfolio/
-    - name: Blog
-      link: /blog/
-    - name: About
-      link: /about/
-    - name: Contact
-      link: /contact/
-- title: Social
+- title: 社群媒體
   links:
     - name: Facebook
       link: https://facebook.com/cloudcannon/

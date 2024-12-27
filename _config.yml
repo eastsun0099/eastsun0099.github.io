@@ -1,4 +1,4 @@
-title: Urban Template
+title: 玉山物業
 url: "https://teal-worm.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -6,7 +6,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: 保全員派駐 | 清潔維護 | 機電設備點檢維護
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -16,7 +16,7 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: 玉山物業
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
