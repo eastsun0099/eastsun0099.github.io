@@ -6,26 +6,19 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: 保全員派駐 | 清潔維護 | 機電設備點檢維護
+description: 保全員派駐 | 專業、細心、落實
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-
-# Social details for the jekyll-seo-tag gem
-social:
   name: 玉山物業
-  links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+  email:
 
-timezone: Etc/UTC
+timezone: Asia/Taipei
 
 collections:
   staff_members:
     output: false
-  clients:
+  items:
     output: true
 
 paginate: 10
@@ -60,21 +53,13 @@ defaults:
           height: 2000
   - scope:
       path: ""
-      type: "clients"
+      type: "items"
     values:
-      layout: "client"
+      layout: "item"
       _options:
         image_path:
           width: 2000
           height: 2000
-  - scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 600
-          height: 600
   - scope:
       path: ""
       type: "pages"
@@ -85,17 +70,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
-# -----------
-# CloudCannon
-
-_select_data:
-  social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS

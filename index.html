@@ -4,25 +4,32 @@ title: 玉山物業
 
 <section class="hero diagonal">
 	<div class="container">
-		<h2 class="editable" style="font-weight:bold;">玉山物業</h2>
-		<p class="subtext editable" style="font-weight:bold;">這是一些文字，可以用來介紹公司。大樓管理二十多年的實務經驗真誠為您服務。</p>
-		<p><a class="button alt" style="font-weight:bold;">連絡電話:(02) 2972-0099</a></p>
+		<h3 class="editable" style="font-weight:bold;">玉山公寓大廈管理維護(股)公司</h3>
+		<p class="subtext editable" style="font-weight:bold;font-size:24px;">大樓管理近三十年的實務經驗真誠為您服務！</p>
+		<p><a class="button alt" style="font-weight:bold;">☎️連絡電話：(02) 2972-0099 </a></p>
 	</div>
 </section>
 
 <section class="diagonal patterned">
 	<div class="container halves">
 		<div>
-			<h3 class="editable">玉山物業公司</h3>
-			<p class="editable">We take pride in our previous work and our happy customers. We cater to any sector to
-				boost business and increase exposure.</p>
-			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
+			<h4 class="editable">玉山公寓大廈管理維護(股)公司</h4>
+			<p class="editable">成立於民國85年專為社區住宅大廈、辦公大樓等，提供行政事務、會計及環境美護、等等之綜合管理服務工作。</p>
+			<p class="editable"><a href="{{ site.baseurl }}/about/"><strong>了解詳情 &rarr;</strong></a></p>
 		</div>
 		<div>
 			<ul class="image-grid">
-				{% for client in site.clients limit: 4 %}
-				<li><a href="{{ site.baseurl }}{{ client.url }}"><img
-							src="{% include relative-src.html src=client.image_path %}"></a></li>
+				{% for item in site.items limit: 4 %}
+				<li style="overflow: visible;"><a href="{{ site.baseurl }}{{ item.url }}"><img
+							src="{% include relative-src.html src=item.image_path %}"
+							style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0 auto;">></a>
+
+
+					<a href="{{ site.baseurl }}{{ item.url }}">
+						<p style="color: white; margin: 0 0 10px 0; font-size: 1rem; text-align:center;">{{ item.name}}
+						</p>
+					</a>
+				</li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -33,16 +40,25 @@ title: 玉山物業
 	<div class="container halves">
 		<div>
 			<ul class="image-list">
-				<li><img src="{{ site.baseurl }}/images/cloudcannon-logo-blue.svg" width="250"
-						style="margin-bottom: 40px;"></li>
-				<li><img src="{{ site.baseurl }}/images/jekyll-logo-black-red-transparent.png" width="300"></li>
+				<li><img src="{{ site.baseurl }}/images/customer-service.png" width="250" style="margin-bottom: 40px;">
+				</li>
 			</ul>
 		</div>
 		<div>
-			<h3 class="editable">Latest software, greatest perfomance</h3>
-			<p class="editable">As a new agency we get reap the benefits of the latest and greatest. We build our
-				websites with the most up to date technology. This ensures your website is fast, efficient and reliable
-				for many years.</p>
+			<h3 class="editable">保全員派駐：</h3>
+			<p class="editable">
+				<li style="list-style-position: outside;font-size:24px;">
+					社區、大廈
+				</li>
+				<li style="list-style-position: outside;font-size:24px;">
+					廠房、辦公大樓
+				</li>
+				<li style="list-style-position: outside;font-size:24px;">
+					工地
+				</li>
+
+			</p>
 		</div>
+
 	</div>
 </section>
