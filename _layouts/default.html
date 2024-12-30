@@ -15,14 +15,15 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico">
 
-	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2WLBSF45WC"></script>
 	<script>
-		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-		ga('create', '{{ site.google_analytics_key }}', 'auto');
-		ga('send', 'pageview');
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-2WLBSF45WC');
 	</script>
-	<script async src='https://www.google-analytics.com/analytics.js'></script>
-	{% endif %}
 </head>
 
 <body>
