@@ -1,6 +1,6 @@
 ---
 name: 公司簡介
-title: 公司簡介 | 玉山物業
+title: 公司簡介
 heading: 公司簡介
 subtitle:
 image_path: /images/items/公司簡介.jpg
