@@ -2,6 +2,7 @@
 name: 經營理念
 title: 經營理念
 heading: 經營理念
+description: 以親切服務、專業管理與高品質工作，致力提升客戶滿意度，打造和諧優質的管理環境。
 image_path: /images/items/經營理念0.jpg
 ---
 

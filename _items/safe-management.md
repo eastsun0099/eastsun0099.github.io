@@ -2,6 +2,7 @@
 name: 安全管理工作
 title: 安全管理工作
 heading: 安全管理工作
+description: 提供門禁管制、防火防災、夜間巡邏等全面安全管理，確保社區與辦公大樓的安全與秩序。
 image_path: /images/items/安全管理.jpg
 ---
 

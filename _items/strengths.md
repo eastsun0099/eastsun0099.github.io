@@ -2,6 +2,7 @@
 name: 管理特色
 title: 管理特色
 heading: 管理特色
+description: 安管勤務、設備維護與環境美護，打造高效、安全、整潔的社區與商辦管理服務。
 image_path: /images/items/管理特色.jpg
 ---
 

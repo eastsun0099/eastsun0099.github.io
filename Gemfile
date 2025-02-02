@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.2.0'
+# gem "jekyll", "4.4.1"
+gem "tzinfo"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '~> 2.2.1'

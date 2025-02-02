@@ -5,7 +5,7 @@ title: 玉山物業
 <section class="hero diagonal">
 	<div class="container">
 		<h3 class="editable" style="font-weight:bold;">玉山公寓大廈管理維護(股)公司</h3>
-		<p class="subtext editable" style="font-weight:bold;font-size:24px;">大樓管理近三十年的實務經驗真誠為您服務！</p>
+		<p class="subtext editable" style="font-size:24px;">大樓管理近三十年的實務經驗真誠為您服務！</p>
 		<p><a class="button alt" href="tel:+886229720099" style="font-size: 28px; font-weight:bold;">☎️連絡電話：(02)
 				2972-0099
 			</a></p>
@@ -14,7 +14,7 @@ title: 玉山物業
 
 <section class="diagonal patterned">
 	<div class="container halves">
-		<div>
+		<div style="width: 80%; margin: 0 auto; text-align: left;">
 			<h4 class="editable">玉山公寓大廈管理維護(股)公司</h4>
 			<p class="editable">成立於民國85年專為社區住宅大廈、辦公大樓等，提供行政事務、會計及環境美護、等等之綜合管理服務工作。</p>
 			<p class="editable"><a href="{{ site.baseurl }}/about/"><strong>了解詳情 &rarr;</strong></a></p>
@@ -22,17 +22,23 @@ title: 玉山物業
 		<div>
 			<ul class="image-grid">
 				{% for item in site.items limit: 4 %}
-				<li style="overflow: visible; margin: 20px 20px 32px 20px;"><a
-						href="{{ site.baseurl }}{{ item.url }}"><img
+				<li><a href="{{ site.baseurl }}{{ item.url }}"><img
 							src="{% include relative-src.html src=item.image_path %}"
-							style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0 auto;">></a>
+							style="width: 100%; object-fit: cover; display: block; margin: 0 auto;"></a>
 
 
 					<a href="{{ site.baseurl }}{{ item.url }}">
-						<p style="color: white;  font-size: 1.5rem; font-weight: bold; text-align:center;">
+						<p
+							style="color: white;  font-size: 1.5rem; font-weight: bold; text-align:center; margin: 8px 0px 8px 0px;">
 							{{
 							item.name}}
 						</p>
+						{% if item.description %}
+						<p style="color: white; font-size: 1rem; text-align: justify; max-width: 100%; margin: 0px 8px 8px 8px auto; text-justify: inter-word;;
+							">
+							{{ item.description }}
+						</p>
+						{% endif %}
 					</a>
 				</li>
 				{% endfor %}

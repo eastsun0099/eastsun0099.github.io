@@ -3,6 +3,7 @@ name: 公司簡介
 title: 公司簡介
 heading: 公司簡介
 subtitle:
+description: 提供專業物業管理，結合日式管理經驗，打造高品質、安全、細緻的社區與商辦大樓服務。
 image_path: /images/items/公司簡介.jpg
 ---
 
