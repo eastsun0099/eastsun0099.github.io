@@ -5,6 +5,10 @@ heading: 安全管理工作
 description: 提供門禁管制、防火防災、夜間巡邏等全面安全管理，確保社區與辦公大樓的安全與秩序。
 image_path: /images/items/安全管理.jpg
 ---
+<p><a class="button alt" onclick="return gtag_report_conversion('tel:+886229720099')" href="tel:+886229720099"
+				style="font-size: 20px; font-weight:bold;">☎️連絡電話：(02)
+				2972-0099
+			</a></p>
 
 ### 本公司當竭力維護本社區之公共安全，並遵守約定事項，以達成安全管理工作，謹簡介其內容如下：
 
@@ -93,3 +97,8 @@ image_path: /images/items/安全管理.jpg
 4. 其他有關住戶有異常狀況發生之協助作業。
 
 <img src="/images/items/安全管理1.jpg">
+
+<p><a class="button alt" onclick="return gtag_report_conversion('tel:+886229720099')" href="tel:+886229720099"
+				style="font-size: 20px; font-weight:bold;">☎️連絡電話：(02)
+				2972-0099
+			</a></p>

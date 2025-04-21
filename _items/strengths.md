@@ -6,6 +6,11 @@ description: 安管勤務、設備維護與環境美護，打造高效、安全�
 image_path: /images/items/管理特色.jpg
 ---
 
+<p><a class="button alt" onclick="return gtag_report_conversion('tel:+886229720099')" href="tel:+886229720099"
+				style="font-size: 20px; font-weight:bold;">☎️連絡電話：(02)
+				2972-0099
+			</a></p>
+
 ### 專業化管理的特色
 
 ### 方針
@@ -54,4 +59,7 @@ image_path: /images/items/管理特色.jpg
 
 #### 服務電話
 
-#### (02)2972-0099
+<p><a class="button alt" onclick="return gtag_report_conversion('tel:+886229720099')" href="tel:+886229720099"
+				style="font-size: 20px; font-weight:bold;">☎️連絡電話：(02)
+				2972-0099
+			</a></p>
