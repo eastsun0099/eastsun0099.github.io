@@ -29,6 +29,25 @@
 
 		gtag('config', 'G-2WLBSF45WC');
 	</script>
+	<script>
+		document.getElementById("open-nav").onclick = function () {
+			document.body.classList.toggle("nav-open");
+			return false;
+		};
+
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof (url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-16881907751/YOXqCILHzbgaEKfw9fE-',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
 </head>
 
 <body>
@@ -68,9 +87,11 @@
 						<h4 style="color:white;">{{ site.data.company.title }}</h4>
 					</li>
 					<li>{{ site.data.company.description }}</li>
-					<li style="font-size:18px">連絡電話：(02) 2972-0099</li>
 					<li style="font-size:18px">email：eastsun0099@gmail.com</li>
 					<li style="font-size:18px">地址：241新北市三重區重新路三段130號</li>
+					<li><p><a class="button alt" onclick="return gtag_report_conversion('tel:+886229720099')" href="tel:+886229720099"
+						style="font-size: 20px; font-weight:bold;">☎️連絡電話：(02)2972-0099
+					</a></p></li>
 				</ul>
 			</div>
 		</div>
@@ -82,13 +103,6 @@
 		</div>
 	</footer>
 
-
-	<script>
-		document.getElementById("open-nav").onclick = function () {
-			document.body.classList.toggle("nav-open");
-			return false;
-		};
-	</script>
 </body>
 
 </html>
